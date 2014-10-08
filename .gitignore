@@ -1,0 +1,9 @@
+# Folder view configuration files
+# Thumbnail cache files
+.DS_Store
+._*
+Thumbs.db
+
+.htaccess
+composer.lock
+/vendor

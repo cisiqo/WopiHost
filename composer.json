@@ -1,0 +1,5 @@
+{
+    "require": {
+        "corneltek/pux": "~1.5"
+    }
+}
