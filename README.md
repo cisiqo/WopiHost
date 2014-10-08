@@ -4,19 +4,17 @@ WopiHost
 Microsoft Office Web Apps Server preview MS files
 
 ## install pux
-`` $ composer install ```
+`` $ composer install ``
 
 ## create .htaccess file like this
-``
-RewriteEngine On
+`` RewriteEngine On
 
 RewriteBase /WopiHost/
 
 RewriteCond %{REQUEST_FILENAME} !-f  
 RewriteCond %{REQUEST_FILENAME} !-d 
 
-RewriteRule .* index.php/$0 [PT,L]
-``
+RewriteRule .* index.php/$0 [PT,L] ``
 
 ## test wopi is correct
 `` http://localhost/WopiHost/files/test.docx ``
